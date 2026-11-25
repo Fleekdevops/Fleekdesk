@@ -26,10 +26,10 @@ export default function Privacy() {
       <p>To provide the service (analysis, client list, follow-up drafts), manage billing and access, keep the service secure, and meet legal obligations. We do not sell personal data or use it for advertising.</p>
 
       <H>5. Who processes it</H>
-      <ul className="list-disc space-y-1 pl-5">
-        <li><b>Anthropic</b> (AI processing of transcripts)</li>
-        <li><b>Supabase</b> (database and authentication) — region: [REGION]</li>
-        <li><b>Vercel</b> (hosting)</li>
+            <ul className="list-disc space-y-1 pl-5">
+        <li><b>Google (Gemini API)</b> (AI processing of transcripts)</li>
+        <li><b>Supabase</b> (database and authentication), hosted in Switzerland (Zurich)</li>
+        <li><b>Vercel</b> (hosting), functions run in Frankfurt, Germany</li>
       </ul>
       <p>These providers may process data outside Kenya. We transfer data only with appropriate safeguards as required by the DPA and rely on your consent where needed. Please review each provider&apos;s data terms.</p>
 
